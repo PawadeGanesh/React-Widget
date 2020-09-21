@@ -38,7 +38,7 @@ class Header extends Component {
 									this.props.history.push('/login');
 								}}
 							>
-								SignOut
+								LogOut
 							</Button>
 						)}
 					</div>
