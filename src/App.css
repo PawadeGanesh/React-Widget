@@ -1,0 +1,97 @@
+body {
+	background-color: #d5dcde !important;
+	padding-top: 52px;
+	padding-bottom: 60px;
+}
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.widget {
+	background-color: #142fde;
+	height: 200px;
+	border-radius: 20px;
+	opacity: 2;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 7%;
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+h3.a {
+	color: 'white';
+}
+
+.navbar {
+	left: 0;
+	right: 0;
+	background-color: white;
+	top: 0;
+	position: fixed !important;
+}
+
+table {
+	width: 50%;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+table.widget-row tbody tr:nth-of-type(even) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+#chart {
+	zoom: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	#chart {
+		zoom: 50%;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	#chart {
+		zoom: 70%;
+	}
+}
